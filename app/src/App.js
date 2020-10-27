@@ -1,4 +1,5 @@
 import React from 'react';
+import Dashboard from './components/Dashboard';
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <h1>Coding challenge</h1>
-      <p>Hello</p>
+        <Dashboard />
       <div className="footer">Submitted by Anthony Albertyn</div>
     </div>
   );
