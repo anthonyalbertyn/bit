@@ -3,11 +3,10 @@ import Dashboard from './components/Dashboard';
 import './App.css';
 
 function App() {
-
   return (
     <div className="app">
       <h1>Coding challenge</h1>
-        <Dashboard />
+      <Dashboard />
       <div className="footer">Submitted by Anthony Albertyn</div>
     </div>
   );

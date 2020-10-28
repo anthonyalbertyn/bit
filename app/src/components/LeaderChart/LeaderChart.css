@@ -1,0 +1,41 @@
+.leader-chart {
+  box-sizing: border-box;
+}
+
+.leader-chart-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.leader-chart-default {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .leader-chart-default {
+    display: block;
+  }
+  .leader-chart-alternative {
+    display: none;
+  }
+}
+
+.leader-chart-alternative table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+.leader-chart-alternative table th,
+.leader-chart-alternative table td {
+  border: 1px solid #d2d2d2;
+  padding: 1rem;
+}
+
+.leader-chart-alternative table th {
+  font-weight: normal;
+}
+
+.leader-chart-alternative table .points {
+  text-align: center;
+  color: #413ea0;
+}
