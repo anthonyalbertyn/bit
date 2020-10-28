@@ -65,8 +65,6 @@ export function Dashboard() {
     ];
     Promise.all(endPoints.map((url) => fetch(url).then((resp) => resp.json())))
       .then((results) => {
-        console.log(results[0]);
-        console.log(results[1]);
         // results[0] is players
         initialisePointsData(results[0]);
         // results[1] is games
